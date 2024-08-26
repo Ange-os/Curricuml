@@ -1,49 +1,113 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/09b9a7264c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
     <title>corriculum</title>
 </head>
-<body id="elemeto3">
-    
-    <header >
+<body>  
+    <header class="borrar">
         <div class="div-img-logo">
             <img src="AngelRios.png" alt="logo-angel-rios">
         </div>
         <nav class="nav ">
             <ul id="elemento-ecima1">
-                <li ><a href="#">Works</a></li>
-                <li><a href="#">cursos</a></li>
+                <li ><a href="#">works</a></li>
+                <li><a href="#">Training</a></li>
                 <li><a href="#">Abolut me</a></li>  
             </ul>
         </nav>
         <div class="idoma" id="idoma">
-            <i class="fa-solid fa-earth-americas"></i>
+            <i class="fa-solid fa-lightbulb"></i>
         </div>
     </header>
-    <img class="img-bola" src="bolaverdeee.png" alt="bola" id="img">
     <section class="inicio" id="inicio">
-        <div class="div-foto">
-            <canvas class="canvas" style="width: 65%; height: 75%;" id='mCanvas'></canvas>     
-            <img class="foto-perfil" src="avatarSN.png" alt="avatar-angel-rios">
+        <canvas class="canvas" id='mCanvas'></canvas>     
+        <div class="div-foto" id="div-foto">
+            <img class="foto-perfil borrar" src="2.png" alt="avatar-angel-rios">
         </div>   
-        <div class="pres-redes">
             <article class="precentacion">
-                <h1><span>soy</span> Angel Rios <span>programador</span></h1>
+                <h1>!Hola, soy<span> Angel </span>programador¡</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus fugiat velit exercitationem unde porro alias quaerat quis, laborum consequatur corporis aliquam ex voluptatum, non maiores doloremque tenetur vero. Iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem asperiores possimus, labore voluptatibus nam quibusdam architecto debitis nobis consequuntur doloribus tempora laborum harum ducimus recusandae. Animi eaque voluptatibus aperiam ipsum!</p>
+                    <button class="div-button" id="btn-danger"><i class="fa-solid fa-skull-crossbones"></i></button>
             </article>
-            <div class="redes" id="elemento-ecima2">
-                <ul>
-                    <i class="fa-brands fa-square-whatsapp"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                </ul>
-            </div>
         </div>
     </section>
+    </div>
+    <div class="skills borrar" id="skills">
+        <i class="incons fa-brands fa-python"></i>
+        <i class="incons fa-brands fa-html5"></i>
+        <i class="incons fa-brands fa-css3-alt"></i>
+        <i class="incons fa-brands fa-js"></i>
+        <i class="incons fa-brands fa-android"></i>
+    </div>    
+
+        <div class="animation" id="animation">
+        </div>
+    <article class="precentacion2">
+        <h1 id="works"><span >Trabajos,</span> Pacticas <span>e indeas</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus fugiat velit exercitationem unde porro alias quaerat quis, laborum consequatur corporis aliquam ex voluptatum, non maiores doloremque tenetur vero. Iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem asperiores possimus, labore voluptatibus nam quibusdam architecto debitis nobis consequuntur doloribus tempora laborum harum ducimus recusandae. Animi eaque voluptatibus aperiam ipsum!</p>         
+    </article>
+    <section class="works" >
+        <div class="galeria">
+                <div class="elementos">
+                    <img src="marianero.png" alt="img.porfilio">
+                    <div class="description">
+                        <h3>Marianero.com.ar</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni dolore voluptas vel sit, ullam, enim saepe minus quia maiores accusantium molestias sunt deleniti sapiente consequuntur ad veritatis debitis, libero non?</p>
+                    </div>
+                </div>
+        <div class="elementos">
+            <img src="Arcadina-portfolio-portada.jpg" alt="img.porfilio">
+            <div class="description">
+                <h3>hola mundo</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni dolore voluptas vel sit, ullam, enim saepe minus quia maiores accusantium molestias sunt deleniti sapiente consequuntur ad veritatis debitis, libero non?</p>
+            </div>
+        </div>
+        </div>
+    </section>
+        <article class="precentacion2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus fugiat velit exercitationem unde porro alias quaerat quis, laborum consequatur corporis aliquam ex voluptatum, non maiores doloremque tenetur vero. Iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem asperiores possimus, labore voluptatibus nam quibusdam architecto debitis nobis consequuntur doloribus tempora laborum harum ducimus recusandae. Animi eaque voluptatibus aperiam ipsum!</p>
+            <h1 id="works"><span >Trabajos,</span> Pacticas <span>e indeas</span></h1>
+        </article>
+        <div class="formacion-titulo works2">
+            <img id="img-cambiante" src="/certificado/Captura de pantalla_29-5-2024_123015_.jpeg" alt="">
+        </div>
+    <footer class="borrar">
+        <canvas class="canvas" id='mCanvasFooter'></canvas>     
+        <ul class="footer-icons">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-solid fa-envelope"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+        <div class="contacto-ubicacion">
+            <div class="contacto">
+                <H3>Habemos</H3>
+                <div class="div-saludo" id="div-foto">
+                    <img class="foto-saludo borrar" src="3.png" alt="avatar-angel-rios">
+                </div> 
+                <form id="form-contact" method="POST">
+                    <label for="Name">Nombre:</label>
+                    <input id="Name" type="text" name="name" required="true">
+                    <label for="Correo">Email:</label>
+                    <input id="Correo" type="Email" name="email" required="true">
+                    <label for="Mensaje">Mensaje:</label>
+                    <textarea id="Mensaje" name="mensaje" required="true"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        
+        <p>Copyright © 2024 Angerl Rios</p>
+    </footer>
     <script src="index.js"></script>
-</body>
-</html>
+    <script type="module" src="/main.js"></script>
+
+<body>
+</html>i

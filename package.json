@@ -1,0 +1,26 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "start": "node back.js",
+    "serve": "nodemon back.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "vite": "^5.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "three": "^0.161.0"
+  }
+}
